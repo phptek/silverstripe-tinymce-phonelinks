@@ -1,7 +1,13 @@
 # silverstripe-tinymce-phonelinks
-Adds ability to create tel: links (phone links) using the TinyMCE editor in Silverstripe
+
+Adds ability to create tel: links (phone links) using the TinyMCE editor in SilverStripe
+
+## Installation
+
+    #> git clone https://github.com/zarocknz/silverstripe-tinymce-phonelinks.git
 
 ## Usage
+
 After installing the module, go to a page in the CMS with HTML Content edited using the TinyMCE WYSIWIG editor,
 select some text (i.e. a phone number) and click the Insert Link button on the toolbar.
 
@@ -9,11 +15,15 @@ You will see that a new option has been added in the Link to section called 'Tel
 enter the desired phone number and link description, then click Insert link.
 
 ## Requirements
-    * Silverstripe 3.1.x+
+
+    * Silverstripe 4.x
     * JQuery-1.7.1+
 
 ## Credits
-This module is very heavily based on phpboyscout/Silverstripe-EditorExtensions
+
+This module is very heavily based on `phpboyscout/Silverstripe-EditorExtensions`
 
 ## Maintainer
+
 zarocknz - https://github.com/zarocknz
+phptek - zarocknz - https://github.com/phptek

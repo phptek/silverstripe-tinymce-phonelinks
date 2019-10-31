@@ -4,6 +4,7 @@ After:
   - 'framework/*'
   - 'cms/*'
 ---
+
 HtmlEditorField_Toolbar:
   extensions:
-    - LinkFormExtension
+    - ZarockNZ\TinymcePhonelinks\LinkFormExtension
